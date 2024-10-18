@@ -1,9 +1,6 @@
-# Java Spring Boot and React.js Project - Rule Engine with AST
+# Java Spring Boot and React.js Project - Rule Engine with AST Assessment 1
 
-Develop a simple ***3-tier rule engine application***(Simple UI, API and Backend, Data) to determine
-user eligibility based on attributes like age, department, income, spend etc.The system can use
-Abstract Syntax Tree (AST) to represent conditional rules and allow for dynamic
-creation,combination, and modification of these rules.
+Develop a simple **3-tier rule engine application** (Simple UI, API and Backend, Data) to determine user eligibility based on attributes like age, department, income, spending, etc. The system can use an Abstract Syntax Tree (AST) to represent conditional rules and allow for dynamic creation, combination, and modification of these rules.
 
 ## Project Structure
 ```
@@ -23,8 +20,8 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone [repository-url](https://github.com/Abhinavrajsrivastav/ZeoTap_Assessment1.git)
-```
+git clone https://github.com/Abhinavrajsrivastav/ZeoTap_Assessment1.git
+cd ZeoTap_Assessment1
 ```
 
 ### 2. Frontend Setup (React.js)
@@ -44,11 +41,10 @@ The React app will be running at:
 **http://localhost:3000**
 
 ### 3. Backend Setup (Spring Boot)
-Navigate to the `backend` folder:
+Navigate to the `rule_engine_backend` folder:
 ```bash
 cd ../rule_engine_backend
 ```
-
 Run the Spring Boot application:
 ```bash
 mvn spring-boot:run
@@ -59,11 +55,10 @@ The backend API will be running at:
 ## API Documentation
 You can test the backend API using **Postman** or **cURL**.  
 
-Sample API endpoint:
+Sample API endpoints:
 ```
 POST /api/rules/create-rule
 POST /api/rules/evaluate-rule
-
 ```
 
 ## Accessing the Application
@@ -76,7 +71,7 @@ POST /api/rules/evaluate-rule
 - **Frontend**: React.js, HTML, CSS, JavaScript  
 - **Backend**: Java, Spring Boot, Maven, RESTful APIs  
 - **Database**: MySQL, H2  
-- **DevOps**:  GitHub Actions  
+- **DevOps**: GitHub Actions  
 
 ## Contributing
 
@@ -88,4 +83,4 @@ POST /api/rules/evaluate-rule
 
 ## License
 
-This project is licensed under the ZeoTap Internship(2025) Assessment Purpose.
+This project is licensed under the ZeoTap Internship (2025) Assessment Purpose.
