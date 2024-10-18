@@ -37,7 +37,7 @@ public ResponseEntity<Boolean> evaluateRule(@RequestBody Map<String, Object> dat
         boolean result = ruleService.evaluateRule(ast, data);
         return ResponseEntity.ok(result);
     } catch (Exception e) {
-        e.printStackTrace(); // This will print the error to the server console
+        e.printStackTrace();
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(false);
     }
 }
