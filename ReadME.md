@@ -43,7 +43,7 @@ The React app will be running at:
 ### 3. Backend Setup (Spring Boot)
 Navigate to the `rule_engine_backend` folder:
 ```bash
-cd ../rule_engine_backend
+cd rule_engine_backend
 ```
 Run the Spring Boot application:
 ```bash
